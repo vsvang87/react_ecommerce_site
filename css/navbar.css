@@ -56,16 +56,27 @@ header nav .cart-div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 header nav .cart-div a {
   text-decoration: none;
   color: rgb(43, 43, 43);
 }
 header nav .cart-div a .cart {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+}
+header nav .cart-div span {
+  font-size: 0.7rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 0.2rem;
+  border-radius: 50px 50px;
+  padding: 0.2rem 0.5rem;
+  background: rgb(216, 67, 67);
+  color: rgb(241, 241, 241);
 }
 header nav .cart-div .login-btn {
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   border: transparent;
   border-radius: 5px;
   background: rgb(62, 128, 167);

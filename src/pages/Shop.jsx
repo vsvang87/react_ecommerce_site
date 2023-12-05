@@ -1,11 +1,13 @@
 import React from 'react'
+import Hero from '../components/Hero/Hero'
+import "../sass/hero.scss";
 
 const Shop = () => {
   return (
     <div>
-        Shop
+        <Hero/>
     </div>
   )
 }
 
-export default Shop
+export default Shop;

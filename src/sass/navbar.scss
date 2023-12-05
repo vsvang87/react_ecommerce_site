@@ -32,17 +32,29 @@ header {
         }
         .cart-div {
             @include center_icon;
+            position: relative;
             a {
                 text-decoration: none;
                 
                 color: $black;
                 .cart {
-                    font-size: 1.5rem;
+                    font-size: 1.8rem;
                     
                 }
+               
+            }
+            span {
+                font-size: .7rem;
+                position: absolute;
+                left: 1.5rem;
+                top: .2rem;
+                border-radius: 50px 50px;
+                padding: 0.2rem .5rem;
+                background: rgb(216, 67, 67);
+                color: $white;
             }
             .login-btn {
-                margin-left: 2rem;
+                margin-left: 2.5rem;
                 border: transparent;
                 border-radius: 5px;
                 background: $blue;

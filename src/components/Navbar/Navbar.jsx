@@ -1,5 +1,5 @@
 import React from 'react'
-import "../sass/navbar.scss";
+import "../../sass/navbar.scss";
 import { PiSneaker } from "react-icons/pi";
 import { CiShoppingCart } from "react-icons/ci";
 import {NavLink, Link} from 'react-router-dom'; 
