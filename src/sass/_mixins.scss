@@ -1,0 +1,15 @@
+@mixin flex_space_between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------Center React Icons------------*/
+@mixin center_icon{
+    display: flex;
+    align-items: center;
+}

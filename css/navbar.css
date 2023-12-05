@@ -1,0 +1,76 @@
+/*----------Center React Icons------------*/
+header {
+  padding: 1rem 0;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+}
+header nav .logo a {
+  color: rgb(43, 43, 43);
+  text-decoration: none;
+}
+header nav .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+header nav .nav-menu li {
+  padding: 0 1rem;
+}
+header nav .nav-menu li a {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+}
+header nav .nav-menu li a.active {
+  border-bottom: 2px solid rgb(62, 128, 167);
+  padding-bottom: 0.2rem;
+}
+header nav .cart-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header nav .cart-div a {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+}
+header nav .cart-div a .cart {
+  font-size: 1.5rem;
+}
+header nav .cart-div .login-btn {
+  margin-left: 2rem;
+  border: transparent;
+  border-radius: 5px;
+  background: rgb(62, 128, 167);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.css.map */
